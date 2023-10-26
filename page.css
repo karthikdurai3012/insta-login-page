@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    display: flex;
+    gap: 100px;
+    height: auto;
+    width: auto;
+    margin:auto;
+    justify-content: center;
+ 
+}
+.first{
+    
+    position: relative;
+    left:100px;
+    margin: 50px;
+    
+}
+.img_1{
+    position: absolute;
+    left: 75px;
+}
+@media screen and (max-width: 1200px){
+    .first{
+        display: none;
+    }
+    
+}
+.second{
+    height: auto;
+    width: auto;
+    padding: 30px;
+    margin:50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    
+}
+.heading{
+    font-size:xx-large;
+    font-weight: bolder;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 20px;
+
+}
+.username{
+    padding: 20px;
+    
+}
+.one{
+    padding: 10px;
+    font-size: larger;
+    border-radius: 5px;
+    box-shadow: 5px solid black;
+}
+.password{
+    padding: 20px;
+}
+
+.login{
+    padding: 20px;
+        
+}
+.two{
+    width: 250px;
+    background-color:rgb(0, 0, 255,0.5);
+}
+
+
+.fb{
+    padding:20px 0px 0px 70px;
+    gap: 5px;
+}
+.last{
+    padding:20px 0px 0px 90px;
+}
+.account{
+    padding:20px 0px 0px 50px;
+}
+.sign{
+    color: blue;
+}
+.list{
+    display: flex;
+    justify-content:center;
+    gap: 20px;
+}
